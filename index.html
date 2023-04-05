@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Maximum between two numbers -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Maximum between two numbers</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="num11" placeholder="Enter first  number">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="num12" placeholder="Enter second number">
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-12">
+                <button class="button" onclick="number1()">Submit</button>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result1" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 2 -  Maximum Between Three Numbers -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Maximum between Three numbers</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="num21" placeholder="Enter first  number">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="num22" placeholder="Enter second number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="num23" placeholder="Enter Third number">
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-12">
+                <button class="button" onclick="number2()">Submit</button>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result2" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- 3- Number is negative, positive or zero. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Number is negative, positive or zero.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter3" placeholder="Enter a Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number3()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result3" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+    <!-- 4- a number is divisible by 5 and 11 or not. -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">A number is divisible by 5 and 11 or not.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter4" placeholder="Enter a Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number4()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result4" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 5-  Check whether a number is even or odd. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">The number is even or odd.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter5" placeholder="Enter a Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number5()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result5" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 6- Check whether a year is leap year or not. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">A year is leap year or not.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter6" placeholder="Enter a Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number6()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result6" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 7-  A character is alphabet or not. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">A character is alphabet or not.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter7" placeholder="Enter a Character" maxlength="1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number7()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result7" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 8- vowel or consonant. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">The character is vowel or consonant.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter8" placeholder="Enter a Character" maxlength="1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number8()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result8" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+    <!-- 9-Check whether it is alphabet, digit or special character. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Check whether it is alphabet, digit or special character.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="character9" placeholder="Enter a character" maxlength="1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number9()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result9" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- 10- character is uppercase or lowercase alphabet. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Character is uppercase or lowercase alphabet.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter10" placeholder="Enter a character" maxlength="1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number10()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result10" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 11-  input week number and print week day -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading"> Input week number and print week day</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter11" placeholder="Enter Week number" maxlength="1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number11()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result11" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!-- 12- input month number and print number of days in that month. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading"> Days in month</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="enter12" placeholder="Enter month number" maxlength="2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number12()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result12" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- //   14- input angles of a triangle and check whether triangle is valid or not. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Input angles of a triangle and check whether triangle is valid or not.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value141" placeholder="Enter angle 1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value142" placeholder="Enter angle 2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value143" placeholder="Enter angle 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number14()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result14" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- //   15- input Sides of a triangle and check whether triangle is valid or not. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Input sides of a triangle and check whether triangle is valid or not.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value151" placeholder="Enter length of side 1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value152" placeholder="Enter length of side 2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value153" placeholder="Enter length o side 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number15()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result15" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <!--16 // The triangle is equilateral, isosceles or scalene triangle. if it is valid -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">The triangle is equilateral, isosceles or scalene triangle. if it is valid </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value161" placeholder="Enter length of side 1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value162" placeholder="Enter length of side 2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="value163" placeholder="Enter length o side 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number16()">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result16" class="headingresult"></h4>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- 17 Find all roots of quadratic Equation -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading"> Find All Roots of Quardratic Equation <br>ax <sup>2</sup>+bx +c </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-12">
+                <h5>Enter coefficient of x <sup>2</sup> </h5>
+                <input type="text" id="enter171">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h5>Enter coefficient of x </h5>
+                <input type="text" id="enter172">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-12">
+                <h5>Enter constant </h5>
+                <input type="text" id="enter173">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-12">
+                <button class="button" onclick="number17()" id="button17">Submit</button>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result17" class="headingresult"> </h4>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- 18 Clalculate Profit or Loss -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Calculate Profit or Loss</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter181" placeholder="Enter cost price">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter182" placeholder="Enter selling price">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button id="button18" class="button" onclick="number18()">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result18" class="headingresult"></h4>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- // 19 Enter Marks of Five Subjects and calcuate average -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading">Enter Marks of Five subjects calculate % and Grade.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Marks of Physics:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter191" placeholder="Enter Your Marks">
+            </div>
+            <div class="col-12">
+                <input type="number" id="enter192" placeholder="Enter Total Marks">
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Marks of Chemistry:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter193" placeholder="Enter Your Marks">
+            </div>
+            <div class="col-12">
+                <input type="number" id="enter194" placeholder="Enter Total Marks">
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Marks of Biology:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter195" placeholder="Enter Your Marks">
+            </div>
+            <div class="col-12">
+                <input type="number" id="enter196" placeholder="Enter Total Marks">
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Marks of Mathematics:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter197" placeholder="Enter Your Marks">
+            </div>
+            <div class="col-12">
+                <input type="number" id="enter198" placeholder="Enter Total Marks">
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Marks of Computer:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter199" placeholder="Enter Your Marks">
+            </div>
+            <div class="col-12">
+                <input type="number" id="enter190" placeholder="Enter Total Marks">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" id="button19" onclick="number19()">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result191" class="headingresult"></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 id="result192" class="headingresult"></h4>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- 20-calculate its Gross salary -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Calculate Gross salary:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter20" placeholder="Enter Your Basic Salarry">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number20()">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="headingresult" id="result20"></h4>
+            </div>
+        </div>
+    </div>
+    <br>
+   <!-- 21- calculate total electricity bill -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading">Calculate total electricity bill:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="number" id="enter21" placeholder="Enter Units">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="button" onclick="number21()">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="headingresult" id="result21"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

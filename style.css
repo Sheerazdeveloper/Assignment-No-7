@@ -1,0 +1,18 @@
+.button{
+    background-color: orangered;
+    color: whitesmoke;
+   border-radius: 10%;
+}
+
+.heading
+{
+    color: brown;
+}
+.button  {
+    margin-top:10px  ;
+    margin-left: 40px;
+} 
+
+.headingresult{
+    color: blue;
+}
